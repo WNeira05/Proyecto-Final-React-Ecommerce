@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Estilos para enlaces */
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0d1b2a; /* Azul oscuro profundo */
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #1b263b; /* Gris azulado sobrio */
+  margin: 16px 0;
+  text-align: center;
+  border-bottom: 2px solid #1b263b;
+  display: inline-block;
+  padding-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+
+
+p {
+  font-size: 1.1rem;
+  color: #333333;
+  line-height: 1.7;
+  margin-bottom: 1.2em;
+  text-align: justify;
+  text-wrap: pretty;
+}
+
+
+
+
+/* Estilos para botones */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+/* Estilos para botón de volver */
+.boton-volver {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.boton-volver:hover {
+  background-color: #45a049;
+}
+.hero-container {
+  height: 450px; /* Más chico que antes */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid #343434;
+}
+
+
+.hero-title {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.hero-brand {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+
+/* Media queries para tema claro */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

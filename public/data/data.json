@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "nombre": "BODY N° 3 ERÓTICO REGULABLE",
+      "precio": 15900,
+      "stock": 30,
+      "imagen": "https://dcdn-us.mitiendanube.com/stores/003/253/360/products/screenshot_20240526-1934092-954d8a16900225470717168185871756-1024-1024.webp",
+      "categoria": "Body"
+    },
+    {
+      "id": 2,
+      "nombre": "BODY N° 4 EROTICO RED ELASTIZADA",
+      "precio": 17000,
+      "stock": 15,
+      "imagen": "https://dcdn-us.mitiendanube.com/stores/003/253/360/products/screenshot_20240526-1934392-9888e7c84da83bb17a17168187667676-1024-1024.webp",
+      "categoria": "Body"
+    },
+    {
+      "id": 3,
+      "nombre": "CONJUNTO ENCAJE DOBLE TIRA",
+      "precio": 5900,
+      "stock": 36,
+      "imagen": "https://dcdn-us.mitiendanube.com/stores/003/253/360/products/img_20250412_151428651-d011fca88748fe3f9417446907835231-1024-1024.webp",
+      "categoria": "Conjuntos"
+    },
+    {
+      "id": 4,
+      "nombre": "CONJUNTO VICTORIA'S SECRETS",
+      "precio": 8990,
+      "stock": 8,
+      "imagen": "https://dcdn-us.mitiendanube.com/stores/003/253/360/products/inshot_20231010_2226394841-53ef61e55aecd819af16969877102725-1024-1024.webp",
+      "categoria": "Conjuntos"
+    },
+    {
+      "id": 5,
+      "nombre": "PACK LESS VICTORIA'S SECRETS DE ALGODÓN",
+      "precio": 3900,
+      "stock": 20,
+      "imagen": "https://dcdn-us.mitiendanube.com/stores/003/253/360/products/picsart_23-07-30_15-16-27-0591-3940ec7833c2f7d3d516907412362751-1024-1024.webp",
+      "categoria": "Less"
+    },
+    {
+      "id": 6,
+      "nombre": "PACK LESS ONNA | HILO CON TRIPLE CADENA",
+      "precio": 15300,
+      "stock": 62,
+      "imagen": "https://dcdn-us.mitiendanube.com/stores/003/253/360/products/inshot_20231106_190937490-30fcfc51782806366a16993304969117-1024-1024.webp",
+      "categoria": "Less con cadenas"
+    }
+  ]
+  
