@@ -6,13 +6,18 @@ import loading from "../assets/loading.gif";
 import fondoHero from "../assets/hero-ortopedia.jpg";
 import "../App.css";
 
-const Home = ({ cart, productos, cargando, agregarCarrito, borrarProducto }) => {
+const Home = ({
+  cart,
+  productos,
+  cargando,
+  agregarCarrito,
+  borrarProducto,
+}) => {
   return (
     <>
       <Header borrarProducto={borrarProducto} cartItems={cart} />
 
       <main>
-
         <section
           className="hero-container"
           style={{
@@ -20,11 +25,8 @@ const Home = ({ cart, productos, cargando, agregarCarrito, borrarProducto }) => 
             backgroundSize: "contain",
             backgroundPosition: "center",
           }}
-        >
-          
-        </section>
+        ></section>
 
-        
         {cargando ? (
           <div
             className="loading-container"

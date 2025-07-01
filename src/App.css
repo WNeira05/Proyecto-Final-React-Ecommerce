@@ -165,13 +165,6 @@
     padding: 0 1rem;
     font-size: 1rem;
   }
-  .acerca-container p {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente */
-    padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-  }
 
   .acerca-titulo {
     font-size: 1.6rem;
@@ -184,12 +177,5 @@
 
   .search-container {
     padding: 0 1rem;
-  }
-  .contact-container p {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6); 
-    padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 1rem;
   }
 }

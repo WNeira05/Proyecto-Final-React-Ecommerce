@@ -12,31 +12,30 @@ const ProductList = () => {
   return (
     <>
       <div style={{ textAlign: "center", margin: "3rem 0 2rem 0" }}>
-  <h2
-    style={{
-      fontSize: "2rem",
-      color: "#222222", 
-      marginBottom: "0.5rem",
-      letterSpacing: "1px",
-      position: "relative",
-      display: "inline-block",
-    }}
-  >
-    Galería de Productos
-    <span
-      style={{
-        position: "absolute",
-        bottom: -5,
-        left: 0,
-        width: "100%",
-        height: "3px",
-        backgroundColor: "#c06c84",
-        borderRadius: "5px",
-      }}
-    ></span>
-  </h2>
-</div>
-
+        <h2
+          style={{
+            fontSize: "2rem",
+            color: "#222222",
+            marginBottom: "0.5rem",
+            letterSpacing: "1px",
+            position: "relative",
+            display: "inline-block",
+          }}
+        >
+          Galería de Productos
+          <span
+            style={{
+              position: "absolute",
+              bottom: -5,
+              left: 0,
+              width: "100%",
+              height: "3px",
+              backgroundColor: "#c06c84",
+              borderRadius: "5px",
+            }}
+          ></span>
+        </h2>
+      </div>
 
       <SearchBar />
       <div
@@ -47,10 +46,7 @@ const ProductList = () => {
         }}
       >
         {productosFiltrados.map((producto) => (
-          <Productos
-            key={producto.id}
-            producto={producto}
-          />
+          <Productos key={producto.id} producto={producto} />
         ))}
       </div>
     </>

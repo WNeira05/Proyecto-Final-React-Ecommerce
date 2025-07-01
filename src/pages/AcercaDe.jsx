@@ -20,27 +20,28 @@ const AcercaDe = ({ cart, borrarProducto }) => {
         </p>
 
         <p>
-          Contamos con un amplio catálogo que incluye desde dispositivos de apoyo,
-          prótesis, ortesis, hasta productos de rehabilitación y cuidado personal.
-          Trabajamos con las mejores marcas y proveedores para garantizar eficacia
-          y seguridad en cada producto.
+          Contamos con un amplio catálogo que incluye desde dispositivos de
+          apoyo, prótesis, ortesis, hasta productos de rehabilitación y cuidado
+          personal. Trabajamos con las mejores marcas y proveedores para
+          garantizar eficacia y seguridad en cada producto.
         </p>
 
         <p>
-          Nuestro equipo está conformado por profesionales especializados en salud
-          y atención al cliente, dispuestos a asesorarte y acompañarte en la
-          elección del producto que mejor se adapte a tus necesidades.
+          Nuestro equipo está conformado por profesionales especializados en
+          salud y atención al cliente, dispuestos a asesorarte y acompañarte en
+          la elección del producto que mejor se adapte a tus necesidades.
         </p>
 
         <p>
           En Ortopedia BN creemos en la importancia de un servicio humano y
           cercano. Por eso, además de productos, ofrecemos seguimiento postventa
-          y soporte técnico para que tu experiencia sea completa y satisfactoria.
+          y soporte técnico para que tu experiencia sea completa y
+          satisfactoria.
         </p>
 
         <p>
-          Te invitamos a conocernos y descubrir cómo podemos ayudarte a recuperar
-          tu movilidad y bienestar. ¡Tu salud es nuestra prioridad!
+          Te invitamos a conocernos y descubrir cómo podemos ayudarte a
+          recuperar tu movilidad y bienestar. ¡Tu salud es nuestra prioridad!
         </p>
       </main>
 

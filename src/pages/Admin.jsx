@@ -94,12 +94,8 @@ const Admin = () => {
                 alignItems: "center",
                 gap: "8px",
               }}
-              onMouseEnter={(e) =>
-                (e.target.style.backgroundColor = "#a93226")
-              }
-              onMouseLeave={(e) =>
-                (e.target.style.backgroundColor = "#c0392b")
-              }
+              onMouseEnter={(e) => (e.target.style.backgroundColor = "#a93226")}
+              onMouseLeave={(e) => (e.target.style.backgroundColor = "#c0392b")}
             >
               <FaSignOutAlt />
               Cerrar sesión

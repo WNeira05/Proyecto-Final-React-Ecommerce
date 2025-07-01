@@ -1,9 +1,10 @@
-import React from 'react';
-import { useAuth } from '../context/AuthContext';
-import './Login.css'; 
+import React from "react";
+import { useAuth } from "../context/AuthContext";
+import "./Login.css";
 
 const Login = () => {
-  const { email, setEmail, password, setPassword, handleSubmit, errors } = useAuth();
+  const { email, setEmail, password, setPassword, handleSubmit, errors } =
+    useAuth();
 
   return (
     <main className="login-container">
@@ -18,7 +19,7 @@ const Login = () => {
             placeholder="Ingrese el email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className={errors.email ? 'input-error' : ''}
+            className={errors.email ? "input-error" : ""}
           />
           {errors.email && <span className="error-text">{errors.email}</span>}
         </div>
@@ -31,9 +32,11 @@ const Login = () => {
             placeholder="Contraseña"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className={errors.password ? 'input-error' : ''}
+            className={errors.password ? "input-error" : ""}
           />
-          {errors.password && <span className="error-text">{errors.password}</span>}
+          {errors.password && (
+            <span className="error-text">{errors.password}</span>
+          )}
         </div>
 
         <button type="submit" className="btn-login">

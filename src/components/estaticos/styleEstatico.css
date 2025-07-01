@@ -1,11 +1,9 @@
-
 header {
-  background: linear-gradient(135deg, #2D2D2D 0%, #1A1A1A 100%);
+  background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
   position: sticky;
   top: 0;
   z-index: 1000;
 }
-
 
 .header-container {
   display: flex;
@@ -14,24 +12,21 @@ header {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
-  background: linear-gradient(135deg, #2D2D2D 0%, #1A1A1A 100%);
-  padding: 0.1rem 1rem; 
+  background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+  padding: 0.1rem 1rem;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   border-bottom: 2px solid #343434;
 }
-
-
 
 .left-section {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-
 
 nav ul {
   list-style: none;
@@ -43,9 +38,8 @@ nav ul {
   padding: 0;
 }
 
-
 .link {
-  color: #F4F4F4;
+  color: #f4f4f4;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
@@ -53,53 +47,50 @@ nav ul {
   position: relative;
   padding: 0;
   line-height: 1;
-  
 }
-.nav-links{
+.nav-links {
   gap: 0.5rem;
 }
 
 .link:hover {
-  color: #F4F4F4;
+  color: #f4f4f4;
 }
 
 .link.active {
-  color: #F4F4F4;
+  color: #f4f4f4;
   font-weight: bold;
   position: relative;
 }
 
 .link.active::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -4px;
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   transition: transform 0.3s ease;
 }
 
 .link:hover::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -4px;
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   transform: scaleX(1);
 }
-
 
 .logo-img {
   height: 100px;
   object-fit: contain;
 }
 
-
 .btnLogout {
-  color: #F4F4F4;
+  color: #f4f4f4;
   font-weight: bold;
   background: none;
   border: none;
@@ -110,20 +101,19 @@ nav ul {
 }
 
 .btnLogout:hover {
-  color: #F4F4F4;
+  color: #f4f4f4;
 }
 
 .btnLogout:hover::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -4px;
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   transform: scaleX(1);
 }
-
 
 .right-section {
   display: flex;
@@ -131,13 +121,12 @@ nav ul {
   gap: 1.5rem;
 }
 
-
 .cartnav {
   margin-left: auto;
 }
 
 .btnCart {
-  color: #F4F4F4;
+  color: #f4f4f4;
   background: none;
   border: none;
   cursor: pointer;
@@ -147,7 +136,7 @@ nav ul {
 }
 
 .btnCart:hover {
-  color: #F4F4F4;
+  color: #f4f4f4;
   transform: scale(1.2);
 }
 
@@ -170,17 +159,15 @@ nav ul {
   transform: scale(1.2);
 }
 
-
 nav svg {
-  color: #F4F4F4;
+  color: #f4f4f4;
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
 
-
 .footer {
-  background: linear-gradient(135deg, #2D2D2D 0%, #1A1A1A 100%);
-  color: #F4F4F4;
+  background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+  color: #f4f4f4;
   padding: 2rem 1rem;
   border-top: 2px solid #343434;
   margin-top: 3rem;
@@ -199,7 +186,7 @@ nav svg {
 .footer-left h4 {
   margin: 0;
   font-size: 1.2rem;
-  color: #F4F4F4;
+  color: #f4f4f4;
 }
 
 .footer-left p,
@@ -207,7 +194,7 @@ nav svg {
 .footer-right p {
   margin: 0.3rem 0;
   font-size: 0.9rem;
-  color: #F4F4F4;
+  color: #f4f4f4;
 }
 
 .footer-right .social-icons {
@@ -217,13 +204,13 @@ nav svg {
 }
 
 .footer-right .social-icons a {
-  color: #F4F4F4;
+  color: #f4f4f4;
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
 
 .footer-right .social-icons a:hover {
-  color: #F4F4F4;
+  color: #f4f4f4;
 }
 .footer-address {
   display: flex;
@@ -238,13 +225,10 @@ nav svg {
   color: #c06c84;
 }
 
-
-
-
 .menu-toggle {
   background: none;
   border: none;
-  color: #F4F4F4;
+  color: #f4f4f4;
   font-size: 1.5rem;
   cursor: pointer;
   display: none;
@@ -255,23 +239,23 @@ nav svg {
   text-align: center;
   padding: 4rem 1rem;
   color: #ffffff;
-  background: url('../assets/hero-ortopedia.jpg') center center / cover no-repeat;
+  background: url("../assets/hero-ortopedia.jpg") center center / cover
+    no-repeat;
   border-bottom: 2px solid #343434;
   z-index: 1;
   overflow: hidden;
 }
 
 .hero-container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3); 
+  background: rgba(0, 0, 0, 0.3);
   z-index: 2;
 }
-
 
 @media (max-width: 768px) {
   .menu-toggle {
@@ -283,7 +267,7 @@ nav svg {
     top: 60px;
     left: 0;
     right: 0;
-    background-color: #1A1A1A;
+    background-color: #1a1a1a;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
